@@ -1,0 +1,60 @@
+body{
+    /* The CSS property `min-height: 100vh; min-width: 100%;` is used to set the minimum height and
+    width of the body element to cover the entire viewport. */
+    min-height: 100vh;
+    min-width: fit-content;
+    background-image: linear-gradient(  steelblue,rgb(234, 234, 234));
+    background-repeat: no-repeat; 
+    /* background-image: url(../vega/maisan.jpg); */
+}
+.span{
+    white-space: nowrap;
+}
+.offscreen{
+    position: absolute;
+    left: -1000000px;
+}
+
+
+.main{
+    background-image: url("../vega/maicover.jpg");
+    background-size: cover;
+    background-position: center -50px;
+    width: fit-content;
+}
+.ex{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid #333;
+    
+}
+.mai{
+    margin-top: 1rem;
+    padding: 20px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+    padding: 50px;
+    height: fit-content;
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.145) 50%, rgba(0, 0, 0, 0)),
+            linear-gradient(130deg, rgba(255, 255, 255, 0.221) 50%, rgba(0, 0, 0, 0));
+}
+.ex img{
+    width: 25%;
+    height: auto;
+    display: block;
+}
+.h1{
+    font-size: 3rem;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+
+.profile img{
+    display: block;
+    border: 3px double  #333;
+    border-radius: 50%;
+}
